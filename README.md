@@ -78,10 +78,10 @@ We used a mouse gene expression matrix extracted from the ARCHS4 database ([Lach
 
 ```shell
 mouse_expression_extracted_from_archs4_v7.h5
- ├─ expression  					(54,634 samples [row] X 25,074 genes [column])
- ├─ gene_name						(25,074 genes)
+ ├─ expression  				(54,634 samples [row] X 25,074 genes [column])
+ ├─ gene_name					(25,074 genes)
  ├─ sample_geo_accession			(54,634 samples)
- ├─ idx_tf_gene						(specify TF genes used for model construction)
+ ├─ idx_tf_gene					(specify TF genes used for model construction)
  └─ idx_non_tf_gene 				(specify non-TF genes used for model construction)
 ```
 
