@@ -78,11 +78,11 @@ We used a mouse gene expression matrix extracted from the ARCHS4 database ([Lach
 
 ```shell
 mouse_expression_extracted_from_archs4_v7.h5
- +- expression  					(54,634 samples [row] X 25,074 genes [column])
- +- gene_name						(25,074 genes)
- +- sample_geo_accession			(54,634 samples)
- +- idx_tf_gene						(specify TF genes used for model construction)
- +- idx_non_tf_gene 				(specify non-TF genes used for model construction)
+ ├─ expression  					(54,634 samples [row] X 25,074 genes [column])
+ ├─ gene_name						(25,074 genes)
+ ├─ sample_geo_accession			(54,634 samples)
+ ├─ idx_tf_gene						(specify TF genes used for model construction)
+ └─ idx_non_tf_gene 				(specify non-TF genes used for model construction)
 ```
 
 Download the file `mouse_expression_extracted_from_archs4_v7.h5` from [Figshare](https://figshare.com/s/ec58e5b149c3060e1a6f) and place it in the home directory of the EXPLICIT-Mouse package. Build the EXPLICIT-Mouse model using the following commands within MATLAB.
@@ -145,5 +145,5 @@ Geng H, Wang M, Gong J, Xu Y, and Ma S. 2021. An Arabidopsis expression predicto
 
 Lachmann A, Torre D, Keenan AB, Jagodnik KM, Lee HJ, Wang L, Silverstein MC, and Ma'ayan A. 2018. Massive mining of publicly available RNA-seq data from human and mouse. Nature Communications 9:1366.
 
-Wang Y, Zhang Y, Yu N, Li B, Gong J, Mei Y, Bao J, Ma S. 2022. Decoding transcriptional regulation via a human gene expression predictor. *Submitted* 
+Wang Y, Zhang Y, Yu N, Li B, Gong J, Mei Y, Bao J, Ma S. 2022. Decoding transcriptional regulation via a human gene expression predictor. submitted 
 
